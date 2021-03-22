@@ -19,16 +19,22 @@ footer ul li {
 }
 
 .headcontent{
-    display: flex;
+   display: flex;
     flex-direction: row;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 30px;
+    margin-right: 50px;
     margin-bottom: 2%;
     justify-content: center;
 }
 
-.content{
+.contentLeft{
     width: 50%;
+    float: left;
+}
+
+.contentRight{
+    float: right;
 }
 
 .card{
@@ -86,7 +92,7 @@ footer ul li {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-left: 0px;
+       
     }
 
     footer ul li {
