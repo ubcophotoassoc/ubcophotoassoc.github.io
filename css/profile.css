@@ -149,7 +149,7 @@ p{
 @media screen and (max-width: 750px) {
 
    .leftcontent{
-       width: 400px;
+       width: 100%;
    }
     .profilepic{
         width: 250px;
