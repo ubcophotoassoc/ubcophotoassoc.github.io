@@ -109,15 +109,18 @@ footer ul li {
   }
 
   @media screen and (max-width: 790px) {
-    .logo {
-      width: 300px;
-    }
 
    
     .profileimg{
-        width: 350px;
+        width: 300px;
     }
     .headcontent{
         margin-left: 0;
+    }
+    .middle{
+        
+        opacity: 1;
+        
+        
     }
   }
