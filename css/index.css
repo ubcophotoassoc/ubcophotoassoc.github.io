@@ -119,6 +119,7 @@ footer ul li {
     }
     .contentLeft{
         margin-left: 0;
+        width: 100%;
     }
     .middle{
         opacity: 1;
