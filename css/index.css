@@ -110,11 +110,14 @@ footer ul li {
 
   @media (max-width: 620px) {
     .logo {
-      width: 250px;
+      width: 300px;
     }
 
    
     .profileimg{
         width: 350px;
+    }
+    .headcontent{
+        margin-left: 0;
     }
   }
