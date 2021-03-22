@@ -168,4 +168,17 @@ p{
     .photobio{
         font-size: 18px;
     }
+    .showcasepic:hover{
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition:none;
+        opacity: 1;
+        transform: scale(1);
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1);
+         /* Safari and Chrome */
+      
+      }
   }
