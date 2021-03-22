@@ -108,7 +108,7 @@ footer ul li {
     }
   }
 
-  @media (max-width: 620px) {
+  @media (max-width: 790px) {
     .logo {
       width: 300px;
     }
