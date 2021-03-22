@@ -35,11 +35,15 @@
 }
 
 .profilepic{
+    width: 200px;
     border-radius: 50%;
     box-shadow: 0px -1px 8px rgba(80, 80, 85, 0.411);
     
 }
 
+p{
+    font-size: 14px;
+}
 .photobio{
     font-size: small;
 
@@ -141,3 +145,31 @@
     }
     
 }
+
+@media screen and (max-width: 750px) {
+
+   
+    .profilepic{
+        width: 250px;
+    }
+    .headcontent{
+        margin-left: 20px;
+    }
+    .middle{
+        opacity: 1;
+    }
+
+    .bio{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .showcasepic{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .photobio{
+        font-size: 18px;
+    }
+  }
