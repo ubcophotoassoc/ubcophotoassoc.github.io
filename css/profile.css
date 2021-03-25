@@ -1,5 +1,5 @@
 .profilecontent{
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -8,17 +8,17 @@
 
 .leftcontent{
     flex-direction: column;
-    width: 350px;
+    width: 400px;
     justify-content: left;
     text-align: center;
+    
 }
 
 .rightcontent{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-left: 8%;
+    flex-direction: column;
+    margin-left: 20%;
+    justify-content: center
     
 }
 
@@ -27,6 +27,7 @@
     flex-direction: column;
     max-width: 300px; 
     padding-right: 50px;
+    align-items: center;
 }
 
 .bio{
@@ -50,8 +51,8 @@ p{
 }
 
 .showcasepic{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 600px;
+    max-height: 600px;
     box-shadow: 0px -1px 8px rgba(80, 80, 85, 0.411);
 }
 
@@ -71,13 +72,16 @@ p{
 
 /*MEDIA QUERIES*/ 
 @media (max-width: 1700px){
-    .leftcontent{
-        width: 350px;
-    }
 
+    .profilecontent{
+        margin-left: 18%;
+    }
+    .leftcontent{
+        width: 300px;
+    }
     .showcasepic{
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 500px;
+        max-height: 500px;
     }
 
 }
@@ -86,22 +90,18 @@ p{
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
 
-    .leftcontent{
-        width: 600px;
+
+    .rightcontent{
+        margin-left: 15%;
     }
 
     .profilecontent{
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        margin-left: 15%;
     }
 
-    .showcasepic{
-        padding-right: 0px;
-    }
-
+  
     .photo{
         align-items: center;
         max-width: 400px;
@@ -122,11 +122,26 @@ p{
          /* Safari and Chrome */
       
       }
+
+      .showcasepic{
+        max-width: 400px;
+        max-height: 400px;
+    }
 }
 
 @media (max-width: 820px){
 
+    .profilecontent{
+        flex-wrap: wrap;
+        margin-left: 15%;
+        justify-content: center;
+    }
+
+    .leftcontent{
+        width: 450px;
+    }
     .rightcontent{
+        margin-top: 50px;
         margin-left: 0;
     }
     .bio{
@@ -135,8 +150,8 @@ p{
     }
     
     .showcasepic{
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 400px;
+        max-height: 400px;
     }
     .photobio{
         text-align: center;
@@ -149,8 +164,8 @@ p{
 
 @media screen and (max-width: 750px) {
 
-   .leftcontent{
-       width: 100%;
+   .profilecontent{
+       margin-left: 15%;
    }
     .profilepic{
         width: 250px;

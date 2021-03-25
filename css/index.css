@@ -3,15 +3,11 @@ body{
 }
 
 
-footer ul li {
-    margin-left: 10%;
-    margin-right: 10%;
-    list-style-type: none;
-    padding: 20px;
+footer{
+    margin-top: 50px;
     text-align: center;
-    float: left;
     font-weight: bold;
-    font-size: medium;
+    color: #F56220;
 }
 
 .logo{
@@ -30,11 +26,22 @@ footer ul li {
 
 .contentLeft{
     width: 50%;
-    float: left;
 }
 
 .contentRight{
-    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav img{
+    padding-left: 30px;
+    width: 30px;
+    height: 30px;
+    
 }
 
 .card{
@@ -80,6 +87,7 @@ footer ul li {
     opacity: 0;
     text-align: center;
     
+    
 }
 
 /*MEDIA QUERIES*/
@@ -95,17 +103,19 @@ footer ul li {
         align-items: center;
        
     }
-
-    footer ul li {
-        margin-left: 5%;
-        margin-right: 5%;
-        list-style-type: none;
-        padding: 20px;
-        text-align: center;
-        float: left;
-        font-size: small;
-        justify-content: space-around;
+    
+    .nav{
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
+    .nav img{
+        padding-right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+
   }
 
   @media screen and (max-width: 790px) {
@@ -124,4 +134,5 @@ footer ul li {
     .middle{
         opacity: 1;
     }
+
   }
