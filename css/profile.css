@@ -22,12 +22,17 @@
     
 }
 
+.instagram{
+    color: #40A4D8;
+    font-weight: bold;
+}
 .photo{
     display: flex;
     flex-direction: column;
     max-width: 300px; 
     padding-right: 50px;
     align-items: center;
+    
 }
 
 .bio{
@@ -47,6 +52,7 @@ p{
 }
 .photobio{
     font-size: small;
+    width: 400px;
 
 }
 
@@ -107,6 +113,9 @@ p{
         max-width: 400px;
         padding-top: 20px;
         
+    }
+    .photobio{
+        width: 300px;
     }
     
     .showcasepic:hover{
@@ -183,6 +192,7 @@ p{
     }
     .photobio{
         font-size: 18px;
+        width: 400px;
     }
     .showcasepic:hover{
         -webkit-transition: none;
